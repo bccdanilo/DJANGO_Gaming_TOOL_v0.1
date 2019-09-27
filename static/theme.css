@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+header > h1{
+color: #24272E;
+text-align: center;
+}
+
+
+body{
+    background-color: #24272E;
+}
+
+table{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-align: center;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+
+}
+
+h3,h2{
+   color:white;
+text-align: center; 
+font-size: 30px;
+padding: 1%;
+}
+
+li{
+       color:white;
+text-align: center; 
+padding: 0.5%;
+}
+
+a{
+               color:papayawhip;
+}
+
+p{
+
+
+text-align: center; 
+}
+
+td:hover{
+    color:green;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+tr:hover{
+    color: red;
+}
+
+img{
+    display: block;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: white;
+}
+

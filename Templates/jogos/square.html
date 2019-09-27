@@ -1,0 +1,22 @@
+{% load static%}
+<!doctype html>
+
+<HEAD>
+    <TITLE>Time to Play</TITLE>
+    <link rel="stylesheet" type="text/css" href="{% static 'theme.css'%}">
+    <SCRIPT src="{% static 'square.js'%}" type=text/javascript></SCRIPT>
+
+</HEAD>
+
+<body  onload="startGame()">
+
+    <header>
+        <h1> Game Place </h1>
+    </header>
+
+
+
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Jump</button>
+
+    </body>
+</HTML>

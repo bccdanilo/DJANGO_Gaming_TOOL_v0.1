@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+
+<table>
+    <tr>
+        <td>Nick</td>
+        <td>Score</td>
+        <td>Start Date</td>
+        <td>Info</td>
+
+    </tr>
+    {%for object in object_list %}
+    <tr>
+        <td>{{object.nick}}</td>
+        <td>{{object.score}}</td>
+        <td>{{object.startdate}}</td>
+        <td><a href="{{object.id}}/delete"> See More</a> </td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+<p><a href="create" id="link"> Add Player </a> </p>
+
+
+<h2>  Game List  </h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+{% endblock content %}
